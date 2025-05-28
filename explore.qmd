@@ -1,0 +1,10 @@
+---
+title: "Travel and Trails"
+format: html
+---
+
+Hiking and backpacking as a hobby
+
+Organized with section headers
+
+Photos or Visuals 

@@ -1,0 +1,7 @@
+---
+title: "Projects"
+format: html
+---
+At least one post with code, its outputs, and what is being done and why
+
+At least one post with project or paper description

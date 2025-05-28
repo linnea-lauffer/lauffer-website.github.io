@@ -1,0 +1,102 @@
+/*-- scss:defaults --*/
+
+// Import font-size: 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+// Colors
+$terra-cotta: #C17448;    
+$forest-green: #6C8B74;    
+$ink-black: #2E2E2E;       
+$mountain-gray: #8B8C89;   
+$cream: #FDFBF7;
+
+// Override for Bootstrap varaibles
+$primary: $terra-cotta;
+$secondary: $forest-green;
+$body-bg: $cream;
+$body-color: $ink-black;
+$link-color: $terra-cotta;
+$link-hover-color: $forest-green;
+$navbar-bg: $forest-green;
+$navbar-light-color: $cream;
+$navbar-light-hover-color: $terra-cotta;
+
+// Styling
+
+body {
+  background-color: $cream;
+  color: $ink-black;
+  font-family: 'Lora'
+}
+
+h1, h2, h3 {
+  color: $forest-green;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  border-bottom: 2px solid $mountain-gray;
+  padding-bottom: 0.25rem;
+}
+
+h2 {
+  border-bottom: 1px dashed $mountain-gray;
+  padding-bottom: 0.2rem;
+}
+
+a {
+  color: $terra-cotta;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $forest-green;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: $forest-green;
+}
+
+.navbar a {
+  color: $cream !important;
+}
+
+.navbar a:hover {
+  color: $terra-cotta !important;
+}
+
+.btn-primary {
+  background-color: $terra-cotta;
+  color: $cream;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: darken($terra-cotta, 10%);
+}
+
+.section-header {
+  font-size: 1.5rem;
+  color: $forest-green;
+  border-bottom: 2px dashed $mountain-gray;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.card {
+  background-color: lighten($cream, 3%);
+  border: 1px solid $mountain-gray;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+blockquote {
+  color: $forest-green;
+  border-left: 4px solid $terra-cotta;
+  padding-left: 1rem;
+  font-style: italic;
+}

@@ -1,11 +1,13 @@
 ---
-title: "linnea-lauffer.github.io"
+title: "Linnea Lauffer"
+image: media/headshot.jpeg
+2toc: false
+about: 
+ template: jolla
+ image-shape: round
+ image-width: 17em
 ---
 
-This is a Quarto website.
+Insert photo and a brief bio (education, work, etc.)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Maybe insert link to a resume PDF (or create a new page)

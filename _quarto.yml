@@ -3,18 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "linnea-lauffer.github.io"
+  title: "Linnea Lauffer"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
+      - explore.qmd
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - flatly
+      - styles.scss
     toc: true
+    page-layout: full
 
 editor: visual
 

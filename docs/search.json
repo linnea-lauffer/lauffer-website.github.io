@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Travel and Trails",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hiking and backpacking as a hobby\nOrganized with section headers\nPhotos or Visuals"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "linnea-lauffer.github.io",
+    "title": "Linnea Lauffer",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Insert photo and a brief bio (education, work, etc.)\nMaybe insert link to a resume PDF (or create a new page)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "At least one post with code, its outputs, and what is being done and why\nAt least one post with project or paper description"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "At least 3 photos\nAt least 3 sections"
   }
 ]

@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-About this site
+At least 3 photos
 
-```{r}
-1 + 1
-```
+At least 3 sections
