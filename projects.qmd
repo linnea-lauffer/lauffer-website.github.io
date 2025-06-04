@@ -52,15 +52,15 @@ The analysis used the WGS 84 / UTM Zone 6N projection to ensure accurate area me
 ### Satellite Image Comparison
 
 ```{=html}
-<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"</script>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css" rel="stylesheet">
 ```
 
-<link href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css" rel="stylesheet">
 
 <!-- Slider Container -->
-
 ::: {.juxtapose style="width: 100%; height: 500px;"}
-<img src="images/Dec_1986.jpg" data-label="Dec 1986"/> <img src="images/Dec_2010.jpg" data-label="Dec 2010"/>
+<img src="images/Dec_1986.jpg" data-label="Dec 1986" />
+<img src="images/Dec_2010.jpg" data-label="Dec 2010" />
 :::
 
 ### Interpretation
