@@ -161,6 +161,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#map-of-glacial-retreat" id="toc-map-of-glacial-retreat" class="nav-link" data-scroll-target="#map-of-glacial-retreat">Map of Glacial Retreat</a></li>
+  <li><a href="#satellite-image-comparison" id="toc-satellite-image-comparison" class="nav-link" data-scroll-target="#satellite-image-comparison">Satellite Image Comparison</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -209,9 +211,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> work_night, <span class="co"># x-axis: categorical predictor variable</span></span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> total_sleep_hours)) <span class="sc">+</span> <span class="co"># y-axis: continuous response variable </span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>( <span class="at">x =</span> <span class="st">"Work Night"</span>, <span class="at">y =</span> <span class="st">"Total Sleep (hours)"</span>, <span class="co"># relabel x and y axis</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">title =</span> <span class="st">"Boxplot of Total Sleep by Work Night"</span>) <span class="sc">+</span> <span class="co"># give the chart a title</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co"># apply a clean minimalistic theme</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>( <span class="at">x =</span> <span class="st">"Work Night"</span>, <span class="at">y =</span> <span class="st">"Total Sleep (hours)"</span>) <span class="sc">+</span> <span class="co"># relabel x and y axis</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="co"># apply a clean minimalistic theme</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -233,13 +234,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="map-of-glacial-retreat" class="level3">
 <h3 class="anchored" data-anchor-id="map-of-glacial-retreat">Map of Glacial Retreat</h3>
 <p><img src="images/glacier_map.jpg" class="img-fluid"></p>
-
-
+</section>
+<section id="satellite-image-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="satellite-image-comparison">Satellite Image Comparison</h3>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js" <="" script="">
+<p><link href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css" rel="stylesheet"></p>
+<!-- Slider Container -->
+<div class="juxtapose" style="width: 100%; height: 500px;">
+<p><img src="images/Dec_1986.jpg" data-label="Dec 1986"/> <img src="images/Dec_2010.jpg" data-label="Dec 2010"/></p>
+</div>
+</section>
+<section id="interpretation" class="level3">
+<h3>Interpretation</h3>
+<p>As shown above, glacial coverage has notably decreased. This comparison of 1986 and 2010 satellite imagery from the Chugach Range is consistent with the findings that tidewater glaciers respond more rapidly to climate change.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Linnea Lauffer</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Linnea Lauffer</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Home">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/about.html">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Projects">Projects</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/projects.html">/projects.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Travel and Trails">Travel and Trails</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/explore.html">/explore.html</span></p>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Projects – Linnea Lauffer</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Projects – Linnea Lauffer</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Projects – Linnea Lauffer</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Linnea Lauffer</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
 </section>
 </section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -659,7 +677,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+</section></section></main></div> <!-- /content -->
 
 
 

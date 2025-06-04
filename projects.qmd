@@ -30,8 +30,7 @@ ggplot(data = my_data_clean, # starting data frame
        aes(x = work_night, # x-axis: categorical predictor variable
        y = total_sleep_hours)) + # y-axis: continuous response variable 
   geom_boxplot() +
-  labs( x = "Work Night", y = "Total Sleep (hours)", # relabel x and y axis
-        title = "Boxplot of Total Sleep by Work Night") + # give the chart a title
+  labs( x = "Work Night", y = "Total Sleep (hours)") + # relabel x and y axis
   theme_minimal() # apply a clean minimalistic theme
 
 ```
@@ -49,3 +48,21 @@ The analysis used the WGS 84 / UTM Zone 6N projection to ensure accurate area me
 ### Map of Glacial Retreat
 
 ![](images/glacier_map.jpg)
+
+### Satellite Image Comparison
+
+```{=html}
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"</script>
+```
+
+<link href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css" rel="stylesheet">
+
+<!-- Slider Container -->
+
+::: {.juxtapose style="width: 100%; height: 500px;"}
+<img src="images/Dec_1986.jpg" data-label="Dec 1986"/> <img src="images/Dec_2010.jpg" data-label="Dec 2010"/>
+:::
+
+### Interpretation
+
+As shown above, glacial coverage has notably decreased. This comparison of 1986 and 2010 satellite imagery from the Chugach Range is consistent with the findings that tidewater glaciers respond more rapidly to climate change.
