@@ -17,6 +17,7 @@ format:
     theme:
       - flatly
       - styles.scss
+    mainfont: Lora
     toc: true
     page-layout: full
 

@@ -1,7 +1,51 @@
 ---
 title: "Projects"
 format: html
+toc: true
 ---
-At least one post with code, its outputs, and what is being done and why
 
-At least one post with project or paper description
+## Visualizing Sleep Patterns Based on Work Nights
+
+This project investigates how total sleep hours vary between work nights and non-work nights. Since I work a job that has primarily overnight shifts, I wanted to explore how my sleep patterns differ on nights I work compared to my days off. The data was cleaned and visualized using 'ggplot2' in R to compare average sleep duration and their distributions.
+
+### Code and Plot
+
+```{r}
+#| message: false # use this to make sure messages don't show up
+#| warning: false # use this to make sure warnings don't show up
+#| 
+# Read in Packages
+library(tidyverse)
+library(janitor)
+
+# Read in and store data as an object
+my_data <- read_csv("data/PersonalData.csv")
+
+# Clean data
+my_data_clean <- my_data |> 
+  clean_names()
+
+# Create a boxplot comparing total sleep by work night
+ggplot(data = my_data_clean, # starting data frame
+       aes(x = work_night, # x-axis: categorical predictor variable
+       y = total_sleep_hours)) + # y-axis: continuous response variable 
+  geom_boxplot() +
+  labs( x = "Work Night", y = "Total Sleep (hours)", # relabel x and y axis
+        title = "Boxplot of Total Sleep by Work Night") + # give the chart a title
+  theme_minimal() # apply a clean minimalistic theme
+
+```
+
+## Glacial Retreat in the Chugach Range, Alaska (1986-2010)
+
+This project analyzed the retreat of four glaciers using Landsat satellite imagery from 1986, 2002, and 2010. The focus was on two tidewater glaciers (Columbia and Shoup), and two land-terminating glaciers (Matanuska and Nelchina). The analysis revealed that tidewater glaciers retreat more rapidly, likely due to their direct interaction with ocean water, while land-terminating glaciers are more influenced by atmospheric factors.
+
+### Methods
+
+This project analyzed glacial retreat in the Chugach Range, Alaska, from 1986 to 2010 using Landsat imagea for four glaciers, two tidewater and two land-terminating. Glacial extents were manually digitized as polygons in QGIS for each time point. Geoprocessing tools identified areas of ice loss and gain, which were ten visualized spatially and quantified.
+
+The analysis used the WGS 84 / UTM Zone 6N projection to ensure accurate area measurements. While clear retreat patterns emerged, manual digitizing and the limitations of satellite imagery (capturing only surface area) introduce some uncertainty.
+
+### Map of Glacial Retreat
+
+![](images/glacier_map.jpg)
