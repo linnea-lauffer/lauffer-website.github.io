@@ -100,3 +100,11 @@ blockquote {
   padding-left: 1rem;
   font-style: italic;
 }
+
+/* Fix to make container full width and avoid content being centered narrowly */
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
