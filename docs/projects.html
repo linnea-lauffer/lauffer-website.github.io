@@ -237,18 +237,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="satellite-image-comparison" class="level3">
 <h3 class="anchored" data-anchor-id="satellite-image-comparison">Satellite Image Comparison</h3>
-<!-- JuxtaposeJS CSS & JS -->
-<link href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css" rel="stylesheet">
-<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-<!-- Slider Container -->
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-<div class="juxtapose" style="width: 100%; height: 500px;">
-<p><img src="https://linnea-lauffer.github.io/lauffer-website.github.io/images/Dec_1986.jpg" data-label="Dec 1986"> <img src="https://linnea-lauffer.github.io/lauffer-website.github.io/images/Dec_2010.jpg" data-label="Dec 2010"></p>
+<style>
+  .tabs {
+    display: flex;
+    max-width: 800px;
+    margin: 1em auto;
+    border-bottom: 2px solid #ccc;
+    font-family: sans-serif;
+  }
+  .tab {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    user-select: none;
+  }
+  .tab.active {
+    background: white;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  .image-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .image-container img {
+    width: 100%;
+    display: none;
+  }
+  .image-container img.active {
+    display: block;
+  }
+</style>
+
+<div class="tabs">
+  <div class="tab active" data-target="img1986">1986</div>
+  <div class="tab" data-target="img2010">2010</div>
 </div>
+
+<div class="image-container">
+  <img id="img1986" class="active" src="https://linnea-lauffer.github.io/lauffer-website.github.io/images/Dec_1986.jpg" alt="Glacier 1986">
+  <img id="img2010" src="https://linnea-lauffer.github.io/lauffer-website.github.io/images/Dec_2010.jpg" alt="Glacier 2010">
+</div>
+
+<script>
+  const tabs = document.querySelectorAll('.tab');
+  const images = document.querySelectorAll('.image-container img');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      images.forEach(img => img.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.target).classList.add('active');
+    });
+  });
+</script>
 </section>
 <section id="interpretation" class="level3">
 <h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
-<p>As shown above, glacial coverage has notably decreased. This comparison of 1986 and 2010 satellite imagery from the Chugach Range is consistent with the findings that tidewater glaciers respond more rapidly to climate change.</p>
+<p>The two satellite images above, sourced from Google Earth Pro, reveal a significant decrease in glacial coverage between 1986 and 2010. This clear retreat highlights the ongoing impact of environmental changes on the glaciers in the Chugach Range.</p>
 
 
 </section>
