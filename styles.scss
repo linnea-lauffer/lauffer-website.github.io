@@ -26,7 +26,7 @@ $navbar-light-hover-color: $terra-cotta;
 body {
   background-color: $cream;
   color: $ink-black;
-  font-family: 'Lora'
+  font-family: 'Lora';
 }
 
 h1, h2, h3 {
@@ -101,13 +101,20 @@ blockquote {
   font-style: italic;
 }
 
-body, .container, .container-fluid {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+// Force full width for body and common containers to avoid narrow centered content
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-
+body, .container, .container-fluid, main, #main, #content, .content-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
