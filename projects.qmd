@@ -94,8 +94,8 @@ The analysis used the WGS 84 / UTM Zone 6N projection to ensure accurate area me
 </div>
 
 <div class="image-container">
-  <img id="img1986" class="active" src="https://linnea-lauffer.github.io/lauffer-website.github.io/images/Dec_1986.jpg" alt="Glacier 1986" />
-  <img id="img2010" src="https://linnea-lauffer.github.io/lauffer-website.github.io/images/Dec_2010.jpg" alt="Glacier 2010" />
+  <img id="img1986" class="active" src="/images/Dec_1986.jpg" alt="Glacier 1986" />
+  <img id="img2010" src="/images/Dec_2010.jpg" alt="Glacier 2010" />
 </div>
 
 <script>
