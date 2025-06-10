@@ -6,6 +6,9 @@ about:
  template: jolla
  image-shape: round
  image-width: 17em
+format:
+  html:
+    css: styles.css
 ---
 
 ## Welcome!

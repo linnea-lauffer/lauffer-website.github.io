@@ -118,3 +118,16 @@ body, .container, .container-fluid, main, #main, #content, .content-wrapper {
   margin: 0 auto !important;
   box-sizing: border-box !important;
 }
+
+// Center all content inside the body
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;  /* or 100vh to center vertically too */
+  text-align: center; /* center text */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
