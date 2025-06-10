@@ -3,7 +3,9 @@ title: "California National Parks"
 format: html
 ---
 
-# California National Parks
+I have visited 8 out of the 9 national parks in California.
+
+## Redwood National and State Parks
 
 I have visited 8 out of the 9 national parks in California.
 
