@@ -7,38 +7,50 @@ I have visited 8 out of the 9 national parks in California.
 
 ## Redwood National and State Parks
 
-I have visited 8 out of the 9 national parks in California.
-
-## Redwood National and State Parks
-
 ![](docs/images/rw.JPG){fig-align="center" width="400"}
+
+One of my favorite national parks! The redwoods, misty trails, rivers, and even just driving on the roads in the forest can't be beat.
 
 ## Lassen Volcanic National Park
 
 ![](docs/images/las.JPG){fig-align="center" width="400"}
 
+I took a solo day trip to Lassen and completed a wonderful hike that I finished just in time to beat a thunderstorm.
+
 ## Yosemite National Park
 
 ![](docs/images/ys.JPG){fig-align="center" width="800"}
+
+A yearly tradition. I keep coming back to Yosemite for all that it has to offer. Sometimes I bring my dogs and stick to the paved trails, and it is always worth it.
 
 ## Kings Canyon National Park
 
 ![](docs/images/king.JPG){fig-align="center" width="800"}
 
+I visited in the winter, and did an early morning hike that had gorgeous views of fog rolling in below.
+
 ## Sequoia National Park
 
 ![](docs/images/sequoia.JPG){fig-align="center" width="400"}
+
+I had a fun little snow hike with one of my friends. We were amazed at how gorgeous the tall sequoias were in the snow.
 
 ## Pinnacles National Park
 
 ![](docs/images/pn.JPG){fig-align="center" width="400"}
 
+Exploring the caves was a blast, and I was lucky enough to spot California condors soaring overhead.
+
 ## Channel Islands National Park
 
 ![](docs/images/chnl.JPG){fig-align="center" width="400"}
 
+I saw a lot of Channel Island foxes! I would love to go back and camp there eventually.
+
 ## Joshua Tree National Park
 
 ![](docs/images/jt.jpeg){fig-align="center"}
+
+Every year I have attended UCSB, my friends and I have taken a trip to Joshua Tree. I have camped under the stars, and it is one of my favorite places to rock climb and hike.
 
 *Still on the list: Death Valley National Park!*
