@@ -2,9 +2,9 @@
   {
     "objectID": "explore.html",
     "href": "explore.html",
-    "title": "Travel and Trails",
+    "title": "California National Parks",
     "section": "",
-    "text": "Hiking and backpacking as a hobby\nOrganized with section headers\nPhotos or Visuals"
+    "text": "I have visited 8 out of the 9 national parks in California.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStill on the list: Death Valley National Park!"
   },
   {
     "objectID": "index.html",
@@ -37,8 +37,36 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "At least 3 photos\nAt least 3 sections"
+    "text": "I love my pets."
+  },
+  {
+    "objectID": "about.html#pets",
+    "href": "about.html#pets",
+    "title": "About Me",
+    "section": "",
+    "text": "I love my pets."
+  },
+  {
+    "objectID": "about.html#camping-backpacking",
+    "href": "about.html#camping-backpacking",
+    "title": "About Me",
+    "section": "Camping & Backpacking",
+    "text": "Camping & Backpacking"
+  },
+  {
+    "objectID": "about.html#ocean",
+    "href": "about.html#ocean",
+    "title": "About Me",
+    "section": "Ocean",
+    "text": "Ocean"
+  },
+  {
+    "objectID": "explore.html#joshua-tree-national-park",
+    "href": "explore.html#joshua-tree-national-park",
+    "title": "California National Parks",
+    "section": "",
+    "text": "Still on the list: Death Valley National Park!"
   }
 ]

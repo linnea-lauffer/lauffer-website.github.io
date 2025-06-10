@@ -1,10 +1,42 @@
 ---
-title: "Travel and Trails"
+title: "California National Parks"
 format: html
 ---
 
-Hiking and backpacking as a hobby
+# California National Parks
 
-Organized with section headers
+I have visited 8 out of the 9 national parks in California.
 
-Photos or Visuals 
+## Redwood National and State Parks
+
+![](docs/images/rw.JPG){fig-align="center" width="400"}
+
+## Lassen Volcanic National Park
+
+![](docs/images/las.JPG){fig-align="center" width="400"}
+
+## Yosemite National Park
+
+![](docs/images/ys.JPG){fig-align="center" width="800"}
+
+## Kings Canyon National Park
+
+![](docs/images/king.JPG){fig-align="center" width="800"}
+
+## Sequoia National Park
+
+![](docs/images/sequoia.JPG){fig-align="center" width="400"}
+
+## Pinnacles National Park
+
+![](docs/images/pn.JPG){fig-align="center" width="400"}
+
+## Channel Islands National Park
+
+![](docs/images/chnl.JPG){fig-align="center" width="400"}
+
+## Joshua Tree National Park
+
+![](docs/images/jt.jpeg){fig-align="center"}
+
+*Still on the list: Death Valley National Park!*

@@ -115,7 +115,6 @@ The analysis used the WGS 84 / UTM Zone 6N projection to ensure accurate area me
 </script>
 ```
 
-
 ### Interpretation
 
 The two satellite images above, sourced from Google Earth Pro, reveal a significant decrease in glacial coverage between 1986 and 2010. This clear retreat highlights the ongoing impact of environmental changes on the glaciers in the Chugach Range.

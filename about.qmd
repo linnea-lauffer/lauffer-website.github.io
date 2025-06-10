@@ -1,7 +1,43 @@
 ---
-title: "About"
+title: "About Me"
+format: html
+toc: true
 ---
 
-At least 3 photos
+## Pets 
 
-At least 3 sections
+::::: columns
+::: {.column width="50%"}
+![](docs/images/cat.jpg){fig-alt="Cat" width="100%"}
+:::
+
+::: {.column width="50%"}
+![](docs/images/dogs.jpg){fig-alt="Bernese dogs" width="100%"}
+:::
+:::::
+
+I love my pets.
+
+## Camping & Backpacking
+
+::::: columns
+::: {.column width="50%"}
+![](docs/images/camp.jpg){fig-alt="Campsite" width="100%"}
+:::
+
+::: {.column width="50%"}
+![](docs/images/pack.jpg){fig-alt="Backpacking trail" width="100%"}
+:::
+:::::
+
+## Ocean
+
+::::: columns
+::: {.column width="50%" height="100%"}
+![](docs/images/fish.jpg){fig-alt="Fish underwater" width="100%"}
+:::
+
+::: {.column width="50%" height="100%"}
+![](docs/images/shark.jpg){fig-alt="Shark swimming" width="86%"}
+:::
+:::::
