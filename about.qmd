@@ -36,11 +36,11 @@ I love spending time outdoors, and try to get out camping whenever I can. Roxy h
 
 ::::: columns
 ::: {.column width="50%" height="100%"}
-![](images/fish.jpg){fig-alt="Fish underwater"}
+![](images/fish.JPG){fig-alt="Fish underwater"}
 :::
 
 ::: {.column width="50%" height="100%"}
-![](images/shark.jpg){fig-alt="Shark swimming"}
+![](images/shark.JPG){fig-alt="Shark swimming"}
 :::
 :::::
 

@@ -7,43 +7,43 @@ I have visited 8 out of the 9 national parks in California.
 
 ## Redwood National and State Parks
 
-![](images/rw.JPG){fig-align="center"}
+![](images/rw.jpg){fig-align="center"}
 
 One of my favorite national parks! The redwoods, misty trails, rivers, and even just driving on the roads in the forest can't be beat.
 
 ## Lassen Volcanic National Park
 
-![](images/las.JPG){fig-align="center"}
+![](images/las.jpg){fig-align="center"}
 
 I took a solo day trip to Lassen and completed a wonderful hike that I finished just in time to beat a thunderstorm.
 
 ## Yosemite National Park
 
-![](images/ys.JPG){fig-align="center"}
+![](images/ys.jpg){fig-align="center"}
 
 A yearly tradition. I keep coming back to Yosemite for all that it has to offer. Sometimes I bring my dogs and stick to the paved trails, and it is always worth it.
 
 ## Kings Canyon National Park
 
-![](images/king.JPG){fig-align="center"}
+![](images/king.jpg){fig-align="center"}
 
 I visited in the winter, and did an early morning hike that had gorgeous views of fog rolling in below.
 
 ## Sequoia National Park
 
-![](images/sequoia.JPG){fig-align="center"}
+![](images/sequoia.jpg){fig-align="center"}
 
 I had a fun little snow hike with one of my friends. We were amazed at how gorgeous the tall sequoias were in the snow.
 
 ## Pinnacles National Park
 
-![](images/pn.JPG){fig-align="center"}
+![](images/pn.jpg){fig-align="center"}
 
 Exploring the caves was a blast, and I was lucky enough to spot California condors soaring overhead.
 
 ## Channel Islands National Park
 
-![](images/chnl.JPG){fig-align="center"}
+![](images/chnl.jpg){fig-align="center"}
 
 I saw a lot of Channel Island foxes! I would love to go back and camp there eventually.
 
