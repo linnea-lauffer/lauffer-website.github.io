@@ -1,6 +1,6 @@
 ---
 title: "Linnea Lauffer"
-image: /images/me.jpg
+image: images/me.jpg
 about: 
  template: jolla
  image-shape: round
@@ -13,6 +13,6 @@ format:
 
 ## Welcome!
 
-My name is Linnea Lauffer! I am a third-year undergraduate student at UCSB, majoring in Hydrologic Sciences and Policy, and I am expected to graduate in Spring 2026. jbjnhb
+My name is Linnea Lauffer! I am a third-year undergraduate student at UCSB, majoring in Hydrologic Sciences and Policy, and I am expected to graduate in Spring 2026.
 
 [Email](mailto:linnea_lauffer@ucsb.edu) \| [GitHub](https://github.com/linnea-lauffer) \| [Resume](https://drive.google.com/file/d/14COzMPXsrI9EbgcnCGjsZyxjhrL4mKU8/view?usp=share_link)
