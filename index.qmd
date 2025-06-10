@@ -1,7 +1,6 @@
 ---
 title: "Linnea Lauffer"
 image: docs/images/me.jpg
-2toc: false
 about: 
  template: jolla
  image-shape: round
