@@ -43,7 +43,7 @@ This project analyzed the retreat of four glaciers using Landsat satellite image
 
 ### Methods
 
-This project analyzed glacial retreat in the Chugach Range, Alaska, from 1986 to 2010 using Landsat imagea for four glaciers, two tidewater and two land-terminating. Glacial extents were manually digitized as polygons in QGIS for each time point. Geoprocessing tools identified areas of ice loss and gain, which were ten visualized spatially and quantified.
+This project analyzed glacial retreat in the Chugach Range, Alaska, from 1986 to 2010 using Landsat images for four glaciers, two tidewater and two land-terminating. Glacial extents were manually digitized as polygons in QGIS for each time point. Geoprocessing tools identified areas of ice loss and gain, which were ten visualized spatially and quantified.
 
 The analysis used the WGS 84 / UTM Zone 6N projection to ensure accurate area measurements. While clear retreat patterns emerged, manual digitizing and the limitations of satellite imagery (capturing only surface area) introduce some uncertainty.
 
