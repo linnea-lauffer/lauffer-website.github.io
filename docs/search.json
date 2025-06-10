@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Linnea Lauffer",
     "section": "",
-    "text": "Insert photo and a brief bio (education, work, etc.)\nMaybe insert link to a resume PDF (or create a new page)"
+    "text": "My name is Linnea Lauffer! I am a third-year undegraduate student at UCSB, majoring in Hydrologic Sciences and Policy, and I am expected to graduate in Spring 2026.\nEmail | GitHub | Resume"
   },
   {
     "objectID": "projects.html",
@@ -117,5 +117,12 @@
     "title": "California National Parks",
     "section": "Channel Islands National Park",
     "text": "Channel Islands National Park\n\n\n\n\n\nI saw a lot of Channel Island foxes! I would love to go back and camp there eventually."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Linnea Lauffer",
+    "section": "",
+    "text": "My name is Linnea Lauffer! I am a third-year undegraduate student at UCSB, majoring in Hydrologic Sciences and Policy, and I am expected to graduate in Spring 2026.\nEmail | GitHub | Resume"
   }
 ]

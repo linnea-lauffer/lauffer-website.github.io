@@ -4,11 +4,11 @@ format: html
 toc: true
 ---
 
-## Pets 
+## Pets
 
 ::::: columns
 ::: {.column width="50%"}
-![](docs/images/cat.jpg){fig-alt="Cat" width="100%"}
+![](docs/docs/images/cat.jpg){fig-alt="Cat"}
 :::
 
 ::: {.column width="50%"}
@@ -16,7 +16,7 @@ toc: true
 :::
 :::::
 
-I love my pets.
+I love my pets. I have one cat named Tioga, and two lovable Bernese Mountain Dogs, Roxy and Honor.
 
 ## Camping & Backpacking
 
@@ -30,6 +30,8 @@ I love my pets.
 :::
 :::::
 
+I love spending time outdoors, and try to get out camping whenever I can. Roxy has even joined me on a backpacking trip, and both dogs are always up for a camping adventure.
+
 ## Ocean
 
 ::::: columns
@@ -41,3 +43,5 @@ I love my pets.
 ![](docs/images/shark.jpg){fig-alt="Shark swimming" width="86%"}
 :::
 :::::
+
+I have always been drawn to the water, whether it is the ocean, a lake, or a river. My friend joke that I am basically a fish and honestly, they are not wrong.
